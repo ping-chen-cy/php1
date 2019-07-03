@@ -35,7 +35,9 @@ header("Content-type: image/jpeg");
 
 imagejpeg($img);
 
-echo "{$rate} %";
+
+//content-type 是image 不可能會有字
+//echo "{$rate} %";
 
 
 
