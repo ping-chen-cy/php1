@@ -1,0 +1,21 @@
+<!-- 宣告 網頁為 UTF-8 -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--<form action="test_33.php" method="GET">-->
+<!--使用POST 來隱藏資訊 讓資訊不要顯示在URL-->
+<form action="test_33.php" method="POST">
+        <input type="text" name="account" > <br>
+        <input type="password" name="passwd" ><br>
+        Gender: <input type="radio" name="gender" value="m" checked> Male 
+                <input type="radio" name="gender" value="f" >Female<br>
+            <!--name 相同 ＝> 群組化 -->
+            <!-- checked 預設選項 -->
+            <!-- 要帶 value 後端才能辨認-->
+            <!-- PHP 要將變數改成陣列(like[]) 或是 改為獨立變數（ＥＸ：）like1 like2 ...-->
+        LIKE:   <input type="checkbox" name="like[]" value="1">打電腦  
+                <input type="checkbox" name="like[]" value="2">打電動  
+                <input type="checkbox" name="like[]" value="3">打籃球  
+                <input type="checkbox" name="like[]" value="4">打醬油<br>
+
+        <input type="submit" value="Register">
+</form>
