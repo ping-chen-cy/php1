@@ -38,8 +38,6 @@ $dst = ImageCreate($dstW, $dstH);
 //     $srcW , $srcH );
 
 
-
-
 //ImageCopyresized
 imagecopyresized( $dst , $src,
 //int $dst_x , int $dst_y ,
@@ -53,10 +51,7 @@ $srcW , $srcH );
 
 
 
-
-
-
-header("Content-type: image/jpeg");
+// header("Content-type: image/jpeg");
 //加上存檔位置
 ImageJpeg($dst, "dir1/new.jpg");
 

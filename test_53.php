@@ -47,7 +47,11 @@ class person {
         $this->myScooter = new Scooter;
         $this->myName = $name;
     }
+    function __destruct(){
+        //物件解構
+    }
 }
+
 
 //透過“new 來產生物件實體”
 $b1 = new Bike ;
