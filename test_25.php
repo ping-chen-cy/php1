@@ -5,25 +5,25 @@
 
 $a = 10 ;
 $b = 3;
-echo "{$a} : {$b}";
+echo "交換前：{$a} : {$b}";
 
 echo '<hr>';
 $c = $a ;
 $a = $b ;
 $b = $c ;
-echo "{$a} : {$b}";
+echo "交換後：{$a} : {$b}";
 
 
 echo '<hr>';
 
 $a = 6 ;
 $b = 7 ;
-echo "{$a} : {$b}";
+echo "交換前：{$a} : {$b}";
 echo '<hr>';
 
 $a = $a + $b;
 $b = $a - $b;
 $a = $a - $b;
-echo "{$a} : {$b}";
+echo "交換後：{$a} : {$b}";
 
 
